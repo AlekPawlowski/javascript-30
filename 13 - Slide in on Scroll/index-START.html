@@ -178,7 +178,7 @@
             });
         };
 
-        window.onscroll = checkIfInViewport;
+        window.onscroll = debounce(checkIfInViewport);
 
     </script>
 
